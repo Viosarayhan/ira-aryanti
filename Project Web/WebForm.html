@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(background.jpg);
+      background-position: center;
+      background-size: 1500px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background-image: url(background.jpg);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: cover;
+    }
+
+    h2{
+        font-size:25px;
+        color: orange;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="Website.html" method="post">
+    <h2>Login Account</h2>
+
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" placeholder="Masukkan Nama" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Masukkan Email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Masukkan Password" required>
+
+    <label for="konfirmasi-password">Konfirmasi Password:</label>
+    <input type="password" id="konfirmasi-password" placeholder="Ulangi Password" required>
+
+    <button type="submit">Masuk</button>
+  </form>
+
+</body>
+</html>
